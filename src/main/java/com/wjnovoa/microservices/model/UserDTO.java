@@ -8,6 +8,10 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 import org.springframework.hateoas.RepresentationModel;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.validation.constraints.*;
 import java.time.LocalDate;
 
@@ -21,11 +25,14 @@ import java.time.LocalDate;
 @RequiredArgsConstructor
 @ToString
 @ApiModel(description = "System user")
+@Entity(name = "ms_users")
 public class UserDTO extends RepresentationModel<UserDTO> {
 
     @NonNull
     @NotNull
     @ApiModelProperty(notes = "Unique identifier of the User.", example = "1", required = true, position = 0)
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @NonNull

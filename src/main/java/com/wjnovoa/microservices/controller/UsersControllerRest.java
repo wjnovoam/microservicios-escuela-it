@@ -65,11 +65,7 @@ public class UsersControllerRest {
 
     @GetMapping
     public ResponseEntity<CollectionModel<UserDTO>> listAllUsers(){
-       List<UserDTO> users = List.of(
-               new UserDTO(1L, "william"),
-               new UserDTO(2L, "Johan"),
-               new UserDTO(3L, "william")
-       );
+       List<UserDTO> users = userService.listAllUsers();
 
         for (UserDTO userDTO: users) {
             Link withSelfLink = linkTo(methodOn(UsersControllerRest.class)
@@ -92,6 +88,8 @@ public class UsersControllerRest {
     public ResponseEntity<String> createUser(@Validated(value = GroupValidatorOnCreate.class) @RequestBody UserDTO userDTO) {
         System.out.println("Creating user "+ userDTO.getName());
 
+        UserDTO saveUser = userService.saveUser(userDTO);
+
         URI location = ServletUriComponentsBuilder.
                 fromCurrentRequest()
                 .path("/{id}")
@@ -112,6 +110,7 @@ public class UsersControllerRest {
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteUser(@PathVariable(name = "id") Long id){
         System.out.println("Delete user by id "+ id);
+        userService.deleteById(id);
 
         return ResponseEntity.ok(null);
     }

@@ -2,6 +2,7 @@ package com.wjnovoa.microservices.service;
 
 import com.wjnovoa.microservices.model.UserDTO;
 
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -10,4 +11,11 @@ import java.util.Optional;
  */
 public interface UserService {
     Optional<UserDTO> getUserById(Long id);
+
+    List<UserDTO> listAllUsers();
+
+    UserDTO saveUser(UserDTO userDTO);
+
+    void deleteById(Long id);
+
 }
