@@ -1,0 +1,9 @@
+11:07:29.106 [http-nio-9191-exec-9] INFO  c.w.m.controller.HolaMundoRest -Ejecutando hola mundo info
+11:07:29.111 [http-nio-9191-exec-9] WARN  c.w.m.controller.HolaMundoRest -Ejecutando hola mundo warn
+11:07:29.112 [http-nio-9191-exec-9] ERROR c.w.m.controller.HolaMundoRest -Ejecutando hola mundo error
+11:07:30.969 [http-nio-9191-exec-5] INFO  c.w.m.controller.HolaMundoRest -Ejecutando hola mundo info
+11:07:30.972 [http-nio-9191-exec-5] WARN  c.w.m.controller.HolaMundoRest -Ejecutando hola mundo warn
+11:07:30.972 [http-nio-9191-exec-5] ERROR c.w.m.controller.HolaMundoRest -Ejecutando hola mundo error
+11:07:32.004 [http-nio-9191-exec-10] INFO  c.w.m.controller.HolaMundoRest -Ejecutando hola mundo info
+11:07:32.007 [http-nio-9191-exec-10] WARN  c.w.m.controller.HolaMundoRest -Ejecutando hola mundo warn
+11:07:32.008 [http-nio-9191-exec-10] ERROR c.w.m.controller.HolaMundoRest -Ejecutando hola mundo error

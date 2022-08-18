@@ -1,0 +1,205 @@
+10:00:15.993 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+10:00:16.009 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 16332 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+10:00:16.011 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+10:00:16.998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+10:00:17.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+10:00:17.012 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:00:17.013 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:00:17.109 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+10:00:17.109 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1063 ms
+10:00:17.362 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:00:17.409 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:00:17.489 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+10:00:17.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+10:00:17.506 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+10:00:17.516 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+10:00:17.543 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+10:00:17.682 [main] INFO  c.w.m.MicroservicesApplication - Started MicroservicesApplication in 1.937 seconds (JVM running for 2.887)
+10:00:38.151 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:00:41.089 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+10:00:41.101 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 8648 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+10:00:41.102 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+10:00:42.042 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+10:00:42.043 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+10:00:42.043 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:00:42.043 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:00:42.147 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+10:00:42.147 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1011 ms
+10:00:42.375 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:00:42.428 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:00:42.505 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+10:00:42.521 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+10:00:42.522 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+10:00:42.528 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+10:00:42.556 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+10:00:42.684 [main] INFO  c.w.m.MicroservicesApplication - Started MicroservicesApplication in 1.844 seconds (JVM running for 2.762)
+10:02:03.696 [http-nio-9191-exec-1] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:02:03.697 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:02:03.703 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+10:02:03.719 [http-nio-9191-exec-1] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:02:03.719 [http-nio-9191-exec-1] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:02:03.719 [http-nio-9191-exec-1] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+10:39:03.442 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+10:39:03.457 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 31652 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+10:39:03.459 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+10:39:04.408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+10:39:04.416 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+10:39:04.417 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:39:04.417 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:39:04.501 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+10:39:04.502 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1005 ms
+10:39:04.745 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:39:04.799 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:39:04.885 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+10:39:04.896 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9191 is already in use
+10:39:04.897 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:39:04.899 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9191"]
+10:39:04.900 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:39:04.903 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9191"]
+10:39:04.903 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9191"]
+10:39:04.909 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:39:04.911 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9191 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9191 or configure this application to listen on another port.
+
+10:40:39.218 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+10:40:39.230 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 24956 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+10:40:39.231 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+10:40:40.125 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+10:40:40.144 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+10:40:40.145 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:40:40.145 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:40:40.234 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+10:40:40.234 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 963 ms
+10:40:40.472 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:40:40.519 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:40:40.594 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+10:40:40.604 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9191 is already in use
+10:40:40.604 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:40:40.607 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9191"]
+10:40:40.608 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:40:40.611 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9191"]
+10:40:40.611 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9191"]
+10:40:40.617 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:40:40.621 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9191 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9191 or configure this application to listen on another port.
+
+10:40:47.781 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10:40:53.602 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+10:40:53.622 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 2536 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+10:40:53.623 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+10:40:54.725 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+10:40:54.734 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+10:40:54.734 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:40:54.735 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:40:54.828 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+10:40:54.829 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1149 ms
+10:40:55.103 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:40:55.174 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:40:55.276 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+10:40:55.295 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+10:40:55.296 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+10:40:55.311 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+10:40:55.343 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+10:40:55.496 [main] INFO  c.w.m.MicroservicesApplication - Started MicroservicesApplication in 2.262 seconds (JVM running for 3.561)
+10:41:11.344 [http-nio-9191-exec-1] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:41:11.346 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:41:11.353 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+10:41:11.365 [http-nio-9191-exec-1] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:41:11.366 [http-nio-9191-exec-1] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:41:11.366 [http-nio-9191-exec-1] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+10:41:15.748 [http-nio-9191-exec-2] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:41:15.751 [http-nio-9191-exec-2] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:41:15.752 [http-nio-9191-exec-2] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+10:41:16.824 [http-nio-9191-exec-3] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:41:16.827 [http-nio-9191-exec-3] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:41:16.827 [http-nio-9191-exec-3] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+10:41:17.453 [http-nio-9191-exec-4] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:41:17.455 [http-nio-9191-exec-4] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:41:17.456 [http-nio-9191-exec-4] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+10:41:18.321 [http-nio-9191-exec-5] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:41:18.324 [http-nio-9191-exec-5] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:41:18.325 [http-nio-9191-exec-5] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+10:42:28.650 [http-nio-9191-exec-7] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+10:42:28.653 [http-nio-9191-exec-7] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+10:42:28.653 [http-nio-9191-exec-7] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+11:05:44.225 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:05:49.190 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+11:05:49.206 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 27840 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:05:49.209 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+11:05:50.176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+11:05:50.193 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+11:05:50.193 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:05:50.194 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:05:50.286 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+11:05:50.287 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1032 ms
+11:05:50.535 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:05:50.591 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:05:50.674 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+11:05:50.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:05:50.695 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:05:50.706 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:05:50.732 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:05:50.864 [main] INFO  c.w.m.MicroservicesApplication - Started MicroservicesApplication in 2.016 seconds (JVM running for 3.116)
+11:07:03.025 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:07:07.948 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+11:07:07.966 [main] INFO  c.w.m.MicroservicesApplication - Starting MicroservicesApplication on PSLT6248 with PID 17092 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:07:07.968 [main] INFO  c.w.m.MicroservicesApplication - No active profile set, falling back to default profiles: default
+11:07:08.875 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+11:07:08.879 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+11:07:08.883 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:07:08.883 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:07:08.973 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring embedded WebApplicationContext
+11:07:08.974 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 965 ms
+11:07:09.207 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:07:09.264 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:07:09.343 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+11:07:09.360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:07:09.362 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:07:09.368 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:07:09.399 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:07:09.527 [main] INFO  c.w.m.MicroservicesApplication - Started MicroservicesApplication in 1.822 seconds (JVM running for 2.751)
+11:07:19.457 [http-nio-9191-exec-1] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:07:19.459 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:07:19.464 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+11:07:29.106 [http-nio-9191-exec-9] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+11:07:29.111 [http-nio-9191-exec-9] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+11:07:29.112 [http-nio-9191-exec-9] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+11:07:30.969 [http-nio-9191-exec-5] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+11:07:30.972 [http-nio-9191-exec-5] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+11:07:30.972 [http-nio-9191-exec-5] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+11:07:32.004 [http-nio-9191-exec-10] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+11:07:32.007 [http-nio-9191-exec-10] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+11:07:32.008 [http-nio-9191-exec-10] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+11:07:37.615 [http-nio-9191-exec-1] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+11:07:37.628 [http-nio-9191-exec-1] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+11:07:37.628 [http-nio-9191-exec-1] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+11:07:38.695 [http-nio-9191-exec-4] INFO  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo info
+11:07:38.698 [http-nio-9191-exec-4] WARN  c.w.m.controller.HolaMundoRest - Ejecutando hola mundo warn
+11:07:38.698 [http-nio-9191-exec-4] ERROR c.w.m.controller.HolaMundoRest - Ejecutando hola mundo error
+11:08:14.535 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

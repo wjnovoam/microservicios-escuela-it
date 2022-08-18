@@ -1,0 +1,99 @@
+11:05:49.190 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.5.Final
+11:05:49.206 [main] INFO  c.w.m.MicroservicesApplication -Starting MicroservicesApplication on PSLT6248 with PID 27840 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:05:49.209 [main] INFO  c.w.m.MicroservicesApplication -No active profile set, falling back to default profiles: default
+11:05:50.176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9191 (http)
+11:05:50.193 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9191"]
+11:05:50.193 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+11:05:50.194 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:05:50.286 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring embedded WebApplicationContext
+11:05:50.287 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1032 ms
+11:05:50.535 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:05:50.591 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+11:05:50.674 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9191"]
+11:05:50.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:05:50.695 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+11:05:50.706 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+11:05:50.732 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+11:05:50.864 [main] INFO  c.w.m.MicroservicesApplication -Started MicroservicesApplication in 2.016 seconds (JVM running for 3.116)
+11:07:03.025 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+11:07:07.948 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.5.Final
+11:07:07.966 [main] INFO  c.w.m.MicroservicesApplication -Starting MicroservicesApplication on PSLT6248 with PID 17092 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:07:07.968 [main] INFO  c.w.m.MicroservicesApplication -No active profile set, falling back to default profiles: default
+11:07:08.875 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9191 (http)
+11:07:08.879 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9191"]
+11:07:08.883 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+11:07:08.883 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:07:08.973 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring embedded WebApplicationContext
+11:07:08.974 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 965 ms
+11:07:09.207 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:07:09.264 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+11:07:09.343 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9191"]
+11:07:09.360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:07:09.362 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+11:07:09.368 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+11:07:09.399 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+11:07:09.527 [main] INFO  c.w.m.MicroservicesApplication -Started MicroservicesApplication in 1.822 seconds (JVM running for 2.751)
+11:07:19.457 [http-nio-9191-exec-1] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:07:19.459 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+11:07:19.464 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 5 ms
+11:08:14.535 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+11:08:17.834 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.5.Final
+11:08:17.850 [main] INFO  c.w.m.MicroservicesApplication -Starting MicroservicesApplication on PSLT6248 with PID 31128 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:08:17.851 [main] INFO  c.w.m.MicroservicesApplication -No active profile set, falling back to default profiles: default
+11:08:18.785 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9191 (http)
+11:08:18.791 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9191"]
+11:08:18.791 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+11:08:18.791 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:08:18.881 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring embedded WebApplicationContext
+11:08:18.881 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 988 ms
+11:08:19.115 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:08:19.161 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+11:08:19.238 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9191"]
+11:08:19.254 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:08:19.255 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+11:08:19.265 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+11:08:19.291 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+11:08:19.416 [main] INFO  c.w.m.MicroservicesApplication -Started MicroservicesApplication in 1.805 seconds (JVM running for 2.996)
+11:11:22.493 [http-nio-9191-exec-1] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:11:22.493 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+11:11:22.498 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 5 ms
+11:12:24.131 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+11:12:28.978 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.5.Final
+11:12:28.999 [main] INFO  c.w.m.MicroservicesApplication -Starting MicroservicesApplication on PSLT6248 with PID 17804 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:12:29.001 [main] INFO  c.w.m.MicroservicesApplication -No active profile set, falling back to default profiles: default
+11:12:29.874 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9191 (http)
+11:12:29.874 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9191"]
+11:12:29.874 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+11:12:29.881 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:12:29.964 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring embedded WebApplicationContext
+11:12:29.965 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 923 ms
+11:12:30.185 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:12:30.228 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+11:12:30.302 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9191"]
+11:12:30.319 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:12:30.320 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+11:12:30.331 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+11:12:30.355 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+11:12:30.471 [main] INFO  c.w.m.MicroservicesApplication -Started MicroservicesApplication in 1.712 seconds (JVM running for 2.607)
+11:12:47.740 [http-nio-9191-exec-1] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:12:47.740 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+11:12:47.744 [http-nio-9191-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 4 ms
+11:16:51.852 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+11:16:56.724 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.1.5.Final
+11:16:56.739 [main] INFO  c.w.m.MicroservicesApplication -Starting MicroservicesApplication on PSLT6248 with PID 976 (C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices\target\classes started by wjnovoa in C:\Users\wjnovoa\IdeaProjects\microservicio-curso-escuelait\microservices)
+11:16:56.741 [main] INFO  c.w.m.MicroservicesApplication -No active profile set, falling back to default profiles: default
+11:16:57.701 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9191 (http)
+11:16:57.708 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9191"]
+11:16:57.708 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+11:16:57.708 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:16:57.798 [main] INFO  o.a.c.c.C.[.[.[/escuelait/api/v1/microservices] -Initializing Spring embedded WebApplicationContext
+11:16:57.798 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1014 ms
+11:16:58.044 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:16:58.090 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+11:16:58.167 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9191"]
+11:16:58.184 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9191 (http) with context path '/escuelait/api/v1/microservices'
+11:16:58.184 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+11:16:58.196 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+11:16:58.221 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+11:16:58.351 [main] INFO  c.w.m.MicroservicesApplication -Started MicroservicesApplication in 1.886 seconds (JVM running for 2.874)
+11:22:03.379 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
