@@ -2,9 +2,11 @@ package com.wjnovoa.microservices.controller;
 
 import com.wjnovoa.microservices.model.AccountDTO;
 import com.wjnovoa.microservices.model.UserDTO;
+import com.wjnovoa.microservices.service.UserService;
 import com.wjnovoa.microservices.validators.GroupValidatorOnCreate;
 import com.wjnovoa.microservices.validators.GroupValidatorOnUpdate;
 import io.swagger.annotations.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -19,6 +21,8 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import java.net.URI;
 import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Optional;
 
 /**
  * @author William Johan Novoa Melendrez
@@ -29,6 +33,9 @@ import java.util.List;
 @Api(tags = "User API Rest")
 public class UsersControllerRest {
 
+    @Autowired
+    private UserService userService;
+
     @GetMapping("/{id}")
     @ApiOperation(notes ="Retrieve one user system by id",value="Get user by id")
     @ApiResponses(value = {
@@ -37,18 +44,23 @@ public class UsersControllerRest {
     public ResponseEntity<UserDTO> getUserById(@ApiParam(example = "1",value = "Identifier for User",
             allowableValues = "1,2,3,4", required = true) @PathVariable(name = "id") Long id){
 
-        System.out.println("Recovery user by id "+ id);
+        try {
+            Optional<UserDTO> optUserDTO = userService.getUserById(id);
+            UserDTO userDTO = optUserDTO.orElseThrow(NoSuchElementException::new);
 
-        UserDTO userDTO = new UserDTO(1L, "William");
-        userDTO.setEdad(23);
-        userDTO.setLastname("Novoa");
+            Link withSelfLink = linkTo(methodOn(UsersControllerRest.class)
+                    .getUserById(userDTO.getId()))
+                    .withSelfRel();
+            userDTO.add(withSelfLink);
 
-        Link withSelfLink = linkTo(methodOn(UsersControllerRest.class)
-                .getUserById(userDTO.getId()))
-                .withSelfRel();
-        userDTO.add(withSelfLink);
+            return ResponseEntity.ok(userDTO);
 
-        return ResponseEntity.ok(userDTO);
+        }catch (NoSuchElementException exception){
+
+            return ResponseEntity.notFound().build();
+        }
+
+
     }
 
     @GetMapping

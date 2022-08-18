@@ -58,4 +58,8 @@ public class UserDTO extends RepresentationModel<UserDTO> {
 
     @CIF
     private String cif;
+
+    private String title;
+
+    private String body;
 }
