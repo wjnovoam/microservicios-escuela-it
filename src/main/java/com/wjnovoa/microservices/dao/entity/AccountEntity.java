@@ -5,29 +5,16 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
-import javax.persistence.*;
-
 /**
  * @author William Johan Novoa Melendrez
- * @date 18/08/2022
+ * @date 16/08/2022
  */
 @Data
-@RequiredArgsConstructor
 @NoArgsConstructor
-@Entity(name = "ms_users")
-public class UserEntity {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    @NonNull
+@RequiredArgsConstructor
+public class AccountEntity {
     private Long id;
 
     @NonNull
     private String name;
-
-    @Column(name = "last_name")
-    private String lastname;
-
-    private int age;
-
 }

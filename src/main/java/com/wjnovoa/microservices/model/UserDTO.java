@@ -25,14 +25,11 @@ import java.time.LocalDate;
 @RequiredArgsConstructor
 @ToString
 @ApiModel(description = "System user")
-@Entity(name = "ms_users")
 public class UserDTO extends RepresentationModel<UserDTO> {
 
     @NonNull
     @NotNull
     @ApiModelProperty(notes = "Unique identifier of the User.", example = "1", required = true, position = 0)
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @NonNull
