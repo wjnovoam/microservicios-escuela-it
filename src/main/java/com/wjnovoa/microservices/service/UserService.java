@@ -1,6 +1,7 @@
 package com.wjnovoa.microservices.service;
 
 import com.wjnovoa.microservices.model.UserDTO;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,7 +13,7 @@ import java.util.Optional;
 public interface UserService {
     Optional<UserDTO> getUserById(Long id);
 
-    List<UserDTO> listAllUsers();
+    List<UserDTO> listAllUsers(Pageable pageable);
 
     UserDTO saveUser(UserDTO userDTO);
 

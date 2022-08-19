@@ -5,6 +5,8 @@ import com.wjnovoa.microservices.model.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,8 +31,13 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public List<UserDTO> listAllUsers() {
-        List<UserDTO> users = userRepository.findAll();
+    public List<UserDTO> listAllUsers(Pageable pageable) {
+        Page<UserDTO> pageUsers = userRepository.findAll(pageable);
+        List<UserDTO> users = pageUsers.getContent();
+        //List<UserDTO> users = userRepository.findByEdadLessThan(25);
+        //List<UserDTO> users = userRepository.findByNameLike("prueba");
+        //List<UserDTO> users = userRepository.findByNameContaining("a");
+        //List<UserDTO> users = userRepository.findAllUsersBetweenAgeAndName("william", 11, 40);
         return users;
     }
 

@@ -7,6 +7,9 @@ import com.wjnovoa.microservices.validators.GroupValidatorOnCreate;
 import com.wjnovoa.microservices.validators.GroupValidatorOnUpdate;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -64,8 +67,9 @@ public class UsersControllerRest {
     }
 
     @GetMapping
-    public ResponseEntity<CollectionModel<UserDTO>> listAllUsers(){
-       List<UserDTO> users = userService.listAllUsers();
+    public ResponseEntity<CollectionModel<UserDTO>> listAllUsers(@PageableDefault(size = 3,
+            sort = {"edad","name"},direction = Sort.Direction.ASC)Pageable pageable){
+       List<UserDTO> users = userService.listAllUsers(pageable);
 
         for (UserDTO userDTO: users) {
             Link withSelfLink = linkTo(methodOn(UsersControllerRest.class)
@@ -79,7 +83,7 @@ public class UsersControllerRest {
             userDTO.add(accountRel);
         }
 
-       Link link = linkTo(methodOn(UsersControllerRest.class).listAllUsers()).withSelfRel();
+       Link link = linkTo(methodOn(UsersControllerRest.class).listAllUsers(pageable)).withSelfRel();
         CollectionModel<UserDTO> result = CollectionModel.of(users, link);
        return ResponseEntity.ok(result);
     }
